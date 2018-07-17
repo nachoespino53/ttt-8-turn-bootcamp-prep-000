@@ -35,5 +35,12 @@ def move(passed_board, index, char = "X")
   return passed_board
 end
 
+def input_to_index(input)
+  return input.to_i - 1
+end
 
+def move(passed_board, index, char = "X")
+  passed_board[index] = char
+  return passed_board
+end
 
