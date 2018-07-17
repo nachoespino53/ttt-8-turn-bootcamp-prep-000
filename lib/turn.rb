@@ -1,3 +1,5 @@
+
+
 def display_board(aBoard)
   puts " #{aBoard[0]} | #{aBoard[1]} | #{aBoard[2]} "
   puts '-----------'
