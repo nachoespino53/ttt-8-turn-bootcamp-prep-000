@@ -1,4 +1,4 @@
-
+puts "Please enter 1-9:"
 
 def display_board(aBoard)
   puts " #{aBoard[0]} | #{aBoard[1]} | #{aBoard[2]} "
