@@ -44,3 +44,7 @@ def move(passed_board, index, char = "X")
   return passed_board
 end
 
+def turn(board)
+  put "Please enter 1-9:"
+  
+end
