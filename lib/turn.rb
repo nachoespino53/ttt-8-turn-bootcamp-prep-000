@@ -19,7 +19,16 @@ def valid_move?(board, index)
   end
 end
 
-
+def position_taken?(board, index)
+  tempPos = board[index]
+  
+  if tempPos == "" || tempPos == " " || tempPos == nil
+    return false
+  else
+    return true
+  end
+  
+end
 
 def move(passed_board, index, char = "X")
   passed_board[index] = char
