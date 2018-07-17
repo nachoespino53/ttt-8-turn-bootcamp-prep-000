@@ -19,3 +19,8 @@ def valid_move?(board, index)
   end
 end
 
+def move(passed_board, index, char = "X")
+  passed_board[index] = char
+  return passed_board
+end
+
